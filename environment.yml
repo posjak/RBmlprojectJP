@@ -1,0 +1,12 @@
+name: RBmlprojectJP
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python== 3.9
+  - pandas
+  - pytest
+  - isort
+  - pre-commit
+  - flake8
+  - pip
