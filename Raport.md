@@ -11,7 +11,7 @@
 
 
 ## metrics
-
+We have chosen f1 score due to specific of our dataset
 
 ## baseline
 
