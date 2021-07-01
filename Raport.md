@@ -10,15 +10,20 @@
     - dataset is very close to normal distribuution
 
 
-## metrics
-We have chosen f1 score due to specific of our dataset
+## Metrics
+1. Przez brak dokładnych informacji na temat danych, doszliśmy do wniosku, że najabardziej odpowiednią metryką będzie f1_score.
+2. Żeby jeszcze bardziej wywarzyć wyni między precision i recall, wybralismy average='weighted'.
 
-## baseline
-
+## Models
+1. Sprawdzaliśmy na początku wiele różnych opcji z różnymi klasyfikatorami bez żadnych parametrów. Wyciągneliśmy najlpesze czyli:
+    - GradientBoostingClassifier,
+    - KNeighborsClassifie,
+    - SVC
+2. Sprawdzaliśmy hyperopta, RandomizedSearchCV,GridSearchCV
 
 ## conclusion
--
--
--
+- Najlepszy wynik jaki nam się w ogóle udało uzyskać to był GradientBoostingClassifier na hyperopcie, który osiągnął 0.9975,
+- Należy zabierać się za projekt szybciej, tak jak wykładowca mówił,
+- Należy lepiej opanować githuba, bez tego nie mielibyśmy problemów z pokazaniem naszych wyników.
 
 
