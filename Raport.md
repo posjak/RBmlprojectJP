@@ -20,7 +20,11 @@
     - KNeighborsClassifie,
     - SVC
 2. We checked the hyperopt, RandomizedSearchCV, GridSearchCV
-3. Dummy Classifier returns f1-weighted of 0.91
+3. Fitting 3 folds for each of 17 candidates, totalling 51 fits
+Pipeline(steps=[('pca', PCA(n_components=0.99)), ('scaler', StandardScaler()),
+                ('classifier', GradientBoostingClassifier(n_estimators=50))])
+The score of the model is: 0.9738406658739596
+
 
 ## conclusion
 - The best result we ever managed to get was GradientBoostingClassifier on the hyperopt, which reached 0.9975,
